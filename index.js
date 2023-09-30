@@ -744,6 +744,7 @@ main();
 
 //COMANDOS DO BOT
     bot.command('start', async (ctx) => {
+        console.log("salve");
         const userId = ctx.message.from.id;
         userSteps[userId] = 0;
 
@@ -1231,3 +1232,6 @@ main();
         }
     });
 
+
+    //Inicializa o Bot
+    bot.launch()
