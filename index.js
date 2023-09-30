@@ -1205,7 +1205,7 @@ main();
 
                 if (saveResult) {
                     // Se o salvamento foi bem-sucedido, envie o link para entrar no grupo
-                    const groupLink = 'https://t.me/+hRGhBj3FAtRkYTZh'; // Substitua pelo link do seu grupo
+                    const groupLink = 'https://t.me/+O2Mw1liQ9gA5ZTBh'; // Substitua pelo link do seu grupo
 
                     const keyboard = {
                         reply_markup: {
@@ -1231,5 +1231,3 @@ main();
         }
     });
 
-// INICIALIZA O BOT
-    bot.launch();
