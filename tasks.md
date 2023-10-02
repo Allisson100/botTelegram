@@ -1,2 +1,0 @@
-- tirar o seu proprio video dos envios tirar apos ter 35 videos.
-- mexer na mensagem inicial de entrar no grupo
