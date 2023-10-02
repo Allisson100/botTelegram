@@ -752,7 +752,7 @@ main();
 
         if (userExists) {
             // Se o usuário já existe, envie uma mensagem de boas-vindas padrão
-            ctx.reply('🎈 Bem-vindo de volta ao bot! 🎈');
+            ctx.reply('🎈 Bem-vindo de volta! 🎈');
             userSteps[userId] = 10;
         } else {
             ctx.reply('🎈 Bem-vindo ao bot! 🎈\n\n⚠️ Apenas mensagens de textos são interpretadas ⚠️\n\n📺 Para entrar no nosso grupo, por favor, digite o link do seu PERFIL do TikTok:\n\n😊 Isso é importante para que todos do grupo possam te seguir!\n\n💡 Exemplo:\ntiktok.com/@nome_do_seu_perfil');
@@ -1089,7 +1089,7 @@ main();
 
                 if (saveResult) {
                     // Se o salvamento foi bem-sucedido, envie o link para entrar no grupo
-                    const groupLink = 'https://t.me/+hRGhBj3FAtRkYTZh'; // Substitua pelo link do seu grupo
+                    const groupLink = 'https://t.me/+O2Mw1liQ9gA5ZTBh'; // Substitua pelo link do seu grupo
 
                     const keyboard = {
                         reply_markup: {
@@ -1099,7 +1099,7 @@ main();
                         }
                     };
 
-                    ctx.reply('🤗 Obrigado por fornecer suas informações!\n\nVocê pode entrar no grupo clicando no botão abaixo:', keyboard);
+                    ctx.reply('🤗 Obrigado por fornecer suas informações!\n\n👇 Você pode entrar no grupo clicando no botão abaixo, o ADM logo vai aceitar o seu pedido.', keyboard);
 
                     userSteps[userId] = 10;
                 } else {
@@ -1216,7 +1216,7 @@ main();
                         }
                     };
 
-                    ctx.reply('🤗 Obrigado por fornecer suas informações!\n\nVocê pode entrar no grupo clicando no botão abaixo:', keyboard);
+                    ctx.reply('🤗 Obrigado por fornecer suas informações!\n\n👇 Você pode entrar no grupo clicando no botão abaixo, o ADM logo vai aceitar o seu pedido.', keyboard);
 
                     userSteps[userId] = 10;
                 } else {
@@ -1231,7 +1231,6 @@ main();
 
         }
     });
-
 
     //Inicializa o Bot
     bot.launch()
